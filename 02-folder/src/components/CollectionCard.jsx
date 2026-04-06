@@ -22,7 +22,7 @@ const CollectionCard = ({item}) => {
                 <h2 className='text-lg font-semibold capitalize h-14 overflow-hidden'>{item.title}</h2>
                 <button
                     onClick={() => {
-                        removeFromCollection(item)
+                        removeFromCollection( item )
                     }}
                     className='bg-indigo-600 active:scale-95 text-white rounded px-3 py-1 cursor-pointer font-medium'
                 >
